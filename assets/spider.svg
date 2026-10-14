@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Aranha em desenho">
+  <g fill="none" stroke="#21131d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M61 82 31 54 14 67M58 92 25 86 10 108M61 103 34 120 28 144M99 82l30-28 17 13M102 92l33-6 15 22M99 103l27 17 6 24"/>
+  </g>
+  <g stroke="#21131d" stroke-width="5" stroke-linejoin="round">
+    <ellipse cx="80" cy="94" rx="36" ry="38" fill="#3a2b39"/>
+    <circle cx="80" cy="58" r="24" fill="#3a2b39"/>
+    <path d="M63 37l17 8 17-8-7 19H70z" fill="#bd4658"/>
+    <circle cx="72" cy="60" r="4" fill="#f1d5d2" stroke="none"/>
+    <circle cx="88" cy="60" r="4" fill="#f1d5d2" stroke="none"/>
+    <path d="M74 72q6 5 12 0" fill="none" stroke="#f1d5d2" stroke-width="3"/>
+  </g>
+</svg>

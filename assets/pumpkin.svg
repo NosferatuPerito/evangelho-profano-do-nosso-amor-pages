@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Abóbora vampira em desenho">
+  <g stroke="#21131d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="#4d764d" d="M76 36c-5-16 1-27 14-29-5 12-5 20-1 29z"/>
+    <path fill="#dd7540" d="M80 34c-35-22-68 7-65 53 2 37 28 60 65 60s63-23 65-60c3-46-30-75-65-53z"/>
+    <path fill="none" d="M80 35c-18 13-24 80 0 111M80 35c18 13 24 80 0 111"/>
+    <path fill="#21131d" d="M36 77l22-8-9 21zM124 77l-22-8 9 21zM49 104c13 21 49 27 62 0-17 8-45 8-62 0z"/>
+    <path fill="#fff4de" d="M57 110l10 1-4 15zM103 110l-10 1 4 15z" stroke-width="3"/>
+  </g>
+</svg>

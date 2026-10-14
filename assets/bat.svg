@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Morcego em desenho">
+  <g stroke="#21131d" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#342635" d="M72 72C51 43 23 47 7 69c11 0 18 8 20 20 10-6 20-1 23 12 9-5 18-1 25 10zM88 72c21-29 49-25 65-3-11 0-18 8-20 20-10-6-20-1-23 12-9-5-18-1-25 10z"/>
+    <path fill="#4e3649" d="M62 60l-5-25 19 17h8l19-17-5 25c13 13 17 49-1 63-11 8-23 8-34 0-18-14-14-50-1-63z"/>
+    <path fill="#e99191" stroke="none" d="M67 81a6 6 0 1 0 12 0 6 6 0 1 0-12 0M93 81a6 6 0 1 0-12 0 6 6 0 1 0 12 0"/>
+    <path fill="none" d="M76 99q4 5 8 0" stroke-width="3"/>
+    <path fill="#fff4de" d="M72 99l5 1-2 7zM88 99l-5 1 2 7z" stroke-width="2"/>
+  </g>
+</svg>
