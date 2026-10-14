@@ -12,3 +12,110 @@ footer{border-top:1px solid #432428;text-align:center;padding:70px 20px 130px;co
 @media(max-width:600px){.gate-art,.reading-art{background-position:66% 65%}.gate-content{padding-bottom:25px}.gate h1{font-size:clamp(3.65rem,15vw,5rem)}.intro{font-size:1.2rem}.header-caption{display:none}.site-header{height:60px}.reading-head h2{font-size:clamp(3.5rem,12vw,5rem)}.poem-section{padding:90px 25px 100px}.poem-text{font-size:1.38rem;line-height:1.52}.player{width:calc(100% - 32px);right:16px;bottom:14px}.track-artist{display:none}}
 @media(max-width:600px){.header-actions{gap:10px}.language-toggle{font-size:9px;padding:8px}.header-link{display:none}.poem-section{padding-left:46px;padding-right:46px}.decor{width:35px;opacity:.75}.decor.left{left:3px}.decor.right{right:3px}.decor:nth-of-type(4n){width:30px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+/* Uma atmosfera mais macia e íntima, com formas orgânicas e luz rosada. */
+:root{
+  --bg:#100914;
+  --paper:#211321;
+  --text:#fff0e8;
+  --red:#d96b88;
+}
+body{
+  background:
+    radial-gradient(circle at 14% 24%,rgba(123,47,105,.26),transparent 35%),
+    radial-gradient(circle at 88% 56%,rgba(142,54,81,.2),transparent 36%),
+    linear-gradient(155deg,#100914 0%,#1c1021 52%,#120a16 100%);
+}
+.progress{height:3px;background:linear-gradient(90deg,#a95092,#f0a5a3,#e86f85)}
+.gate{background:#100914}
+.gate-art{filter:saturate(.82) blur(1px);transform:scale(1.03)}
+.gate-shade{
+  background:
+    radial-gradient(ellipse 62% 58% at 50% 42%,rgba(75,30,63,.08),rgba(19,8,24,.7) 78%),
+    linear-gradient(180deg,rgba(20,8,26,.28),rgba(31,11,30,.24) 48%,rgba(16,9,20,.79));
+}
+.gate-content{width:min(90vw,760px);padding:24px 22px 45px;text-shadow:0 3px 20px #100914}
+.gate-content:before{
+  content:"";position:absolute;z-index:-1;inset:4% 4% 2%;border-radius:50%;
+  background:radial-gradient(ellipse,rgba(108,42,95,.38),rgba(110,44,73,.12) 45%,transparent 72%);
+  filter:blur(16px);
+}
+.sigil{color:#f2adbb;margin-bottom:18px}
+.eyebrow{color:#efa9b3;letter-spacing:.24em}
+.gate h1{font-weight:400;line-height:.87;margin:22px 0 24px}
+.gate h1 em,.reading-head h2 em{color:#f5a9bd}
+.intro{color:#f9e8e5;line-height:1.43;margin:24px auto 30px}
+.hairline:before,.hairline:after{background:linear-gradient(90deg,transparent,#e6a0af,transparent)}
+.enter-button{
+  min-width:175px;min-height:54px;display:inline-flex;align-items:center;justify-content:center;
+  padding:14px 38px;border:1px solid rgba(255,222,222,.36);border-radius:999px;
+  background:linear-gradient(125deg,#8d3f7f,#ba5c7b 55%,#d77c89);color:#fff8f4;
+  box-shadow:0 13px 36px rgba(29,8,29,.48),inset 0 1px rgba(255,255,255,.25);
+  font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:none;
+  transition:transform .25s,box-shadow .25s,filter .25s;
+}
+.enter-button:hover{background:linear-gradient(125deg,#a64b91,#cf6884 55%,#e59197);transform:translateY(-3px);box-shadow:0 18px 42px rgba(53,13,48,.6);filter:saturate(1.08)}
+.gate-bottom{color:#d9a8b5;letter-spacing:.16em}
+.site-header{
+  top:16px;left:clamp(12px,3vw,42px);right:clamp(12px,3vw,42px);height:62px;
+  padding:0 27px;border:1px solid rgba(242,174,194,.2);border-radius:999px;
+  background:linear-gradient(110deg,rgba(46,21,48,.9),rgba(66,27,56,.83),rgba(43,20,45,.9));
+  box-shadow:0 12px 38px rgba(6,2,11,.3);backdrop-filter:blur(18px);
+}
+.mark{color:#efb6c1}.mark span{color:#fff0e9}
+.header-caption,.header-link{color:#e8bac5}
+.reading-art{filter:brightness(.67) saturate(.84) blur(1px)}
+.reading-overlay{
+  background:radial-gradient(ellipse 64% 60% at 50% 45%,rgba(93,34,82,.19),rgba(15,8,20,.54) 80%),
+  linear-gradient(180deg,rgba(17,8,22,.25),rgba(20,9,25,.16) 40%,#100914 100%);
+}
+.reading-head{padding:105px 28px 90px}
+.reading-head h2{font-weight:400}
+.scroll-cue{
+  padding:12px 25px;border:1px solid rgba(244,177,196,.45);border-radius:999px;
+  background:linear-gradient(110deg,rgba(103,44,89,.55),rgba(130,54,84,.4));
+  color:#ffdee5;letter-spacing:.12em;
+}
+.poem-section{
+  margin:35px auto 100px;padding:100px clamp(30px,8vw,90px) 125px;
+  border:1px solid rgba(227,154,181,.16);border-radius:48px;
+  background:radial-gradient(ellipse at 50% 2%,rgba(126,48,106,.22),transparent 27%),
+    linear-gradient(165deg,rgba(53,26,53,.62),rgba(26,15,34,.76) 45%,rgba(61,28,52,.53));
+  box-shadow:0 20px 75px rgba(9,2,16,.18);
+}
+.poem-section h2{color:#ffe9e3}
+.poem-text{color:#f5e5e1}
+.poem-text::first-line{color:#f4b0c1}
+.poem-ornament,.poem-end{color:#eaa5ba}
+.poem-rule{height:2px;border-radius:999px;background:linear-gradient(90deg,transparent,#d1779a,transparent)}
+.language-toggle,.poem-language-toggle{
+  border:1px solid rgba(238,173,197,.42);border-radius:999px;
+  background:linear-gradient(115deg,rgba(103,43,91,.65),rgba(146,60,94,.54));
+  color:#ffdee7;padding:11px 18px;letter-spacing:.08em;
+}
+.language-toggle:hover,.poem-language-toggle:hover{background:linear-gradient(115deg,#864076,#b75a82);color:#fff}
+.language-toggle span{color:#f0b4c4}
+.poem-language-toggle{padding:13px 23px}
+.player{
+  border:1px solid rgba(240,174,197,.32);border-radius:999px;
+  background:linear-gradient(110deg,rgba(59,26,56,.94),rgba(94,39,72,.91));
+  box-shadow:0 16px 40px rgba(8,3,17,.42);padding:11px 16px;
+}
+.player-toggle{background:linear-gradient(140deg,#995186,#d16b91);border-color:rgba(255,220,229,.55)}
+.player-toggle:hover{background:linear-gradient(140deg,#b3619b,#e07c9b)}
+.seek{accent-color:#ed93af}
+footer{border-top:0;background:radial-gradient(ellipse at 50% 100%,rgba(134,49,96,.24),transparent 65%);color:#e4a4b4}
+footer p{color:#f4d4d6}
+@media(max-width:600px){
+  .gate-content{padding:5px 16px 25px}
+  .gate h1{font-size:clamp(3.55rem,14.4vw,5rem)}
+  .intro{font-size:1.16rem}
+  .site-header{top:9px;left:9px;right:9px;height:58px;padding:0 14px}
+  .mark span{font-size:15px}
+  .language-toggle{font-size:9px;padding:9px 10px}
+  .reading-head{padding-top:90px}
+  .poem-section{margin:20px 10px 70px;padding:80px 35px 95px;border-radius:34px}
+  .poem-text{font-size:1.35rem}
+  .decor.left{left:-6px}.decor.right{right:-6px}
+  .player{width:calc(100% - 24px);right:12px;bottom:12px}
+}
